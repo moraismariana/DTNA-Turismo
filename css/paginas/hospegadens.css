@@ -1,0 +1,52 @@
+.hospedagem-opcoes2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hospedagem-opcoes2 h3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.opcoes-desc2 {
+  text-align: center;
+}
+
+.hospedagem-hoteis2 {
+  display: flex;
+  gap: 80px 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+.hospedagem-hoteis2 li {
+  position: relative;
+}
+
+.hospedagem-hoteis2 a {
+  display: flex;
+  gap: 14px;
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+  transition: 0.18s;
+  font-size: 1.25rem;
+  letter-spacing: 0.2rem;
+}
+
+.hospedagem-hoteis2 a:hover {
+  /* gap: 18px; */
+  right: 8px;
+  /* letter-spacing: 0.25rem; */
+}
+
+.hospedagem-hoteis2 a p {
+  font-size: inherit;
+  letter-spacing: inherit;
+}

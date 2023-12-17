@@ -1,0 +1,13 @@
+@import "./geral.css";
+@import "./tipografia.css";
+@import "./cores.css";
+
+@import "./header.css";
+@import "./footer.css";
+
+/* paginas */
+@import "./paginas/home.css";
+@import "./paginas/sugestoes.css";
+@import "./paginas/hospegadens.css";
+
+@import "./paginas/hoteis/diamante-palace.css";

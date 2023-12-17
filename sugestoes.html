@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diamantina - Sugestões | DTNA Turismo</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=IM+Fell+Double+Pica&family=Inter&family=Kaisei+Tokumin:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="w bg1">
+    <div class="container header">
+      <a href="./">
+        <img src="./img/logo.svg" alt="DTNA Turismo">
+      </a>
+      <nav>
+        <ul class="header-menu font5">
+          <li><a href="./">Início</a></li>
+          <li><a href="./sugestoes.html">Sugestões</a></li>
+          <li><a href="./hospedagens.html">Hospedagem</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Datas de Visitação -->
+  <section class="datas-bg">
+    <div class="sugestoes-datas container">
+      <div class="datas-texto">
+        <h2 class="font2">Datas de Visitação</h2>
+        <p class="font6 c2">As melhores datas de visitação nos próximos dias são: <br> <br> 26, 27, 28, 29 e 30.</p>
+      </div>
+      <div class="datas-img">
+        <img src="./img/sugestoes/diamantina.jpg" alt="Igreja de Diamantina">
+      </div>
+    </div>
+  </section>
+
+  <!-- Opções de Interesse -->
+  <section class="bg4">
+    <form class="sugestoes-opcoes container" action="#sugestoes">
+      <h3 class="font3">Selecione as opções de interesse:</h3>
+      <p class="font6 c2">Insira as informações relativas à sua visitação e recomendaremos a você as melhores opções de hospedagem!</p>
+      <div class="infos-inputs">
+        <div class="font6">
+          <label for="datachegada">Data de chegada:</label>
+          <input type="date" id="datachegada" name="datachegada">
+        </div>
+
+        <div class="font6">
+          <label for="datasaida">Data de Saída:</label>
+          <input type="date" id="datasaida" name="datasaida">
+        </div>
+
+        <div class="font6">
+          <label for="qtdevisitantes">Quantidade de visitantes:</label>
+          <input type="text" id="qtdevisitantes" name="qtdevisitantes">
+        </div>
+      </div>
+      <button class="botao2">Verificar</button>
+    </form>
+
+  </section>
+
+  <!-- Opções de Hospedagem -->
+  <section id="sugestoes" class="bg2">
+    <div class="sugestoes-hoteis container w">
+      <h3 class="font5">Sugestões</h3>
+      <p class="font6 c6">As melhores opções de hospedagem para você são:</p>
+      <ul class="hoteis c4">
+        <li class="font4">
+          <p>Pousada do Garimpo</p>
+          <img src="./img/hoteis/hoteis-p/pousada-do-garimpo.jpg" alt="Pousada do Garimpo">
+          <a href="./hoteis/pousada-do-garimpo.html" class="hotel-link">
+            <p class="font5">Conferir</p>
+            <img src="/img/dec/seta1.svg" alt="seta">
+          </a>
+        </li>
+        <li class="font4">
+          <p>Capim Limão</p>
+          <img src="./img/hoteis/hoteis-p/capim-limao.jpg" alt="Capim Limão">
+          <a href="./hoteis/capim-limao.html" class="hotel-link">
+            <p class="font5">Conferir</p>
+            <img src="/img/dec/seta1.svg" alt="seta">
+          </a>
+        </li>
+        <li class="font4">
+          <p>Pouso da Chica</p>
+          <img src="./img/hoteis/hoteis-p/pouso-da-chica.jpg" alt="Pouso da Chica">
+          <a href="./hoteis/pouso-da-chica.html" class="hotel-link">
+            <p class="font5">Conferir</p>
+            <img src="/img/dec/seta1.svg" alt="seta">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="bg1 w font6">
+    <div class="container footer">
+      <div class="footer-sep">
+        <div class="footer-logo">
+          <img src="./img/logo.svg" alt="DTNA Turismo">
+        </div>
+        <div class="footer-sep2">
+          <div>
+            <p>(38) 9999 9999</p>
+            <p>dtna@turismo.com</p>
+          </div>
+          <div>
+            <p>Rua Fictícia, 92</p>
+            <p>Diamantina - Minas Gerais</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="./">Início</a>
+        <a href="./sugestoes.html">Sugestões</a>
+        <a href="./hospedagens.html">Hospedagem</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

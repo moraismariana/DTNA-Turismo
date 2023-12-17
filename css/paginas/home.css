@@ -1,0 +1,156 @@
+/* inicio */
+.home-inicio-bg {
+  background: url(/img/home/diamantina-home.jpg);
+}
+
+.home-inicio {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 240px 20px 200px 20px;
+  /* justify-content: center; */
+}
+
+.home-inicio h1,
+.home-inicio p,
+.home-inicio a {
+  text-align: center;
+}
+
+.home-inicio p {
+  max-width: 40ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* pedras e histórias */
+.home-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 120px 20px 40px 20px;
+}
+
+.home-descricao h2,
+.home-descricao p {
+  text-align: center;
+}
+
+.home-descricao p {
+  max-width: 51ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Arquitetura */
+.arquitetura-bg {
+  background: var(--c4) url(/img/dec/linhas1.svg) no-repeat 0 16px;
+  box-shadow: inset 0 80px var(--c2);
+}
+
+.home-arquitetura {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 60px;
+}
+
+.arquitetura-texto {
+  align-self: end;
+  justify-self: end;
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.arquitetura-texto h3 {
+  text-align: end;
+}
+
+.arquitetura-texto p {
+  max-width: 25ch;
+  text-align: end;
+}
+
+/* História */
+.historia-bg {
+  background: var(--c2) url(/img/dec/linhas2.svg) no-repeat 60px 300px;
+  box-shadow: inset 0 300px var(--c4);
+}
+
+.home-historia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 60px;
+}
+
+.historia-img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.historia-texto {
+  align-self: end;
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Eventos */
+.eventos-bg {
+  background: var(--c2) url(/img/dec/linhas2.svg) no-repeat 60px -335px;
+}
+
+.home-eventos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 60px;
+}
+
+.eventos-texto {
+  align-self: end;
+  justify-self: end;
+  margin: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eventos-texto h3 {
+  text-align: end;
+}
+
+.eventos-texto p {
+  max-width: 25ch;
+  text-align: end;
+}
+
+/* Final */
+.home-final-bg {
+  background: url(/img/home/diamantina-home2.jpg);
+}
+
+.home-final {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 120px 20px 110px 20px;
+  /* justify-content: center; */
+}
+
+.home-final p,
+.home-final a {
+  text-align: center;
+}
+
+.home-final p {
+  max-width: 40ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-final .botao1 {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,153 @@
+/* reset / deficições iniciais */
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--c1);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* img[src$=".jpg"] {
+  border-radius: 4px;
+} */
+
+/* container */
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--c1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--c2);
+  border-radius: 20px;
+  border: 2px solid var(--c1);
+}
+
+/* botões */
+.botao1 {
+  color: var(--w);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  border: solid 2px rgba(255, 255, 255, 0.253);
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  transition: 0.18s;
+}
+
+.botao1:hover {
+  border: solid 2px #c0c0c0;
+  letter-spacing: 0.25rem;
+}
+
+.botao2 {
+  border: none;
+  color: var(--w);
+  background-color: var(--c2);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  /* border: solid 2px #7d7d7d; */
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+  transition: 0.2s;
+}
+
+.botao2:hover {
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+}
+
+/* Animação de scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+/* inputs */
+input[type="date"] {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.15rem;
+  background-color: var(--c3);
+  color: var(--w);
+  width: 200px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: var(--w);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.15rem;
+  background-color: var(--c3);
+  color: var(--w);
+  width: 200px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+}

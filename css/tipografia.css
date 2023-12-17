@@ -1,0 +1,53 @@
+/* font-family: 'IM Fell Double Pica', serif;
+  font-family: 'IM Fell DW Pica', serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Kaisei Tokumin', serif; */
+
+.font1 {
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.35rem;
+  text-transform: uppercase;
+}
+
+.font2 {
+  font-family: "IM Fell Double Pica", serif;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.font3 {
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: 0.15rem;
+}
+
+.font4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.font5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.font6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
