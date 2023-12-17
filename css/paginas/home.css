@@ -1,6 +1,7 @@
 /* inicio */
 .home-inicio-bg {
-  background: url(/img/home/diamantina-home.jpg);
+  /* background: url(/img/home/diamantina-home.jpg); */
+  background: url(../../img/home/diamantina-home.jpg);
 }
 
 .home-inicio {
@@ -8,7 +9,6 @@
   flex-direction: column;
   gap: 36px;
   padding: 240px 20px 200px 20px;
-  /* justify-content: center; */
 }
 
 .home-inicio h1,
@@ -44,7 +44,8 @@
 
 /* Arquitetura */
 .arquitetura-bg {
-  background: var(--c4) url(/img/dec/linhas1.svg) no-repeat 0 16px;
+  /* background: var(--c4) url(/img/dec/linhas1.svg) no-repeat 0 16px; */
+  background: var(--c4) url(../../img/dec/linhas1.svg) no-repeat 0 16px;
   box-shadow: inset 0 80px var(--c2);
 }
 
@@ -74,7 +75,7 @@
 
 /* História */
 .historia-bg {
-  background: var(--c2) url(/img/dec/linhas2.svg) no-repeat 60px 300px;
+  background: var(--c2) url(../../img/dec/linhas2.svg) no-repeat 60px 300px;
   box-shadow: inset 0 300px var(--c4);
 }
 
@@ -99,7 +100,7 @@
 
 /* Eventos */
 .eventos-bg {
-  background: var(--c2) url(/img/dec/linhas2.svg) no-repeat 60px -335px;
+  background: var(--c2) url(../../img/dec/linhas2.svg) no-repeat 60px -335px;
 }
 
 .home-eventos {
@@ -128,7 +129,7 @@
 
 /* Final */
 .home-final-bg {
-  background: url(/img/home/diamantina-home2.jpg);
+  background: url(../../img/home/diamantina-home2.jpg);
 }
 
 .home-final {
